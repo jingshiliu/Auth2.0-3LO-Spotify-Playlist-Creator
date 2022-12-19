@@ -1,0 +1,10 @@
+Spotify Playlist Creator
+
+
+
+3. https://animechan.vercel.app/api/random      -  get random anime characterb quote
+1. https://accounts.spotify.com/authorize       - send authorize request, and redirect to /receive-code
+1. https://accounts.spotify.com/api/token       - request access token using authorization token
+
+2. api.spotify.com/v1/me                       - get user profile, need spotify id in it to send create playlist request
+4. https://api.spotify.com/v1/users/${spotifyID}/playlists        - send create playlist request
