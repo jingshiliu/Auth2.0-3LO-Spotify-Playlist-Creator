@@ -2,9 +2,9 @@ const http = require('http')
 const https = require('https')
 const fs = require('fs')
 const crypto = require('crypto')
-const port = 9000
+const port =  process.env.PORT || 9000
 
-const spotifyCred = require('./credential/spotify-credential.json')
+const spotifyCred = require('./credential/spotify-credential.js')
 
 const allSessions = []
 
