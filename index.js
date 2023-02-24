@@ -107,7 +107,7 @@ function generateCookie(res){
 
 
 
-const redirectURL = `http://localhost:${port}/receive-code`
+const redirectURL = `https://spotify-playlist-creater.herokuapp.com/receive-code`
 function redirectToSpotify(state, res) {
     const spotifyAuthorizeEndpoint = 'https://accounts.spotify.com/authorize'
     res.writeHead(302, {
